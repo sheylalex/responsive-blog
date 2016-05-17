@@ -1,11 +1,74 @@
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.4); }
+
 /* Inserta tu codigo aqui */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courgette", sansserif;
+  color: #F7BA6A; }
+
+a {
+  color: white;
+  font-family: tahoma;
+  font-weight: none; }
+
+p {
+  font-family: "Courgette", sansserif;
+  color: white; }
+
+.navbar {
+  border: 0px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: White; }
+
+.fondo-home {
+  background-image: url(../image/header-image.jpg);
+  background: cover;
+  background-position: center; }
+
+.texto-home {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  left: 25%;
+  margin: 10% 5%;
+  background-color: #1C1821; }
+
+.texto-home h1 {
+  font-size: 70px; }
+
+section .fila-2 .thumbnail {
+  padding: 0px;
+  border: none;
+  background-color: #1C1821; }
+
+section .fila-3 .thumbnail {
+  padding: 0px;
+  border: none;
+  background-color: #1C1821; }
+
+.buscador {
+  border: 30px solid #1C1821; }
+
+.buscador input {
+  background-color: #2D2735;
+  border: none; }
+
+.redes i {
+  border-radius: 100%;
+  font-size: 20px;
+  background-color: #2D2735;
+  padding: 3%;
+  color: white; }
 
 /* Responsive */
+@media (max-width: 750px) {
+  .texto-home {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    left: 5%;
+    margin: 10% 5%;
+    background-color: #1C1821; } }
 
-@media screen and (max-width : 920px) {
-
-}
-
-@media screen and (max-width: 600px) {
-
-}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,72 @@
+$negro: #1C1821;
+$letra:"Courgette",sansserif;
+$naranja: #F7BA6A; 
+$blanco:white;
+
+*{outline:1px solid rgba(255,0,0,0.4);}
+/* Inserta tu codigo aqui */
+h1,h2,h3,h4,h5,h6{ 
+	font-family: $letra;
+	color: $naranja;
+}
+a{color:$blanco;font-family:tahoma;font-weight:none;}
+p{font-family: $letra;
+	color: $blanco;} 
+.navbar{border:0px;}
+.navbar-default .navbar-nav>li>a{color:White;}
+
+// fila1
+.fondo-home{
+	background-image: url(../image/header-image.jpg);
+	background: cover;
+	background-position: center; }
+
+.texto-home{
+	width: 40%;
+	height: 100%;
+	position: relative;
+	left: 25%;
+	margin: 10% 5%;
+	background-color: $negro
+}
+.texto-home h1{
+	font-size: 70px;
+}
+section .fila-2 .thumbnail{
+	padding: 0px;
+	border: none;
+	background-color: $negro;
+}
+section .fila-3 .thumbnail{
+	padding: 0px;
+	border: none;
+	background-color: $negro;
+}
+.buscador{
+	border: 30px solid $negro;
+}
+.buscador input{
+	background-color:#2D2735;
+	border:none;
+}
+.redes i{
+	border-radius: 100%;
+	font-size:20px;
+	background-color:#2D2735;
+	padding: 3%;
+	color:white;
+}
+
+/* Responsive */
+
+@media(max-width:750px){
+
+.texto-home{
+	width: 80%;
+	height: 100%;
+	position: relative;
+	left: 5%;
+	margin: 10% 5%;
+	background-color: $negro
+}
+}
